@@ -1,6 +1,50 @@
+body {
+  background-color: skyblue;
+  overflow-x: hidden
+}
+
+.content {
+  max-width: 500px;
+  background-color: skyblue;
+  top: -25px;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: skyblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 9px 6px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+
+.p64 {
+  top: 00%;
+  left: 30%;
+  position: relative;
+}
+
 .submit {
-    position: relative;
-      top: 30%;
-      left: 400%;
-     
-  }
+ position: right 75%;
+ top: 600%;
+ left: 200%;
+}
+
